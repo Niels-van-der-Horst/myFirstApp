@@ -1,15 +1,15 @@
 
 import './App.css'
 
-function App() {
-  
+export const App = () => {
+
+const greeting = "welkom back";
 
   return (
     <div className="App">
-      <h1>quick</h1>
-
+      <h1>{greeting}</h1>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
