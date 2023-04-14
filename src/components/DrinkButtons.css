@@ -1,5 +1,18 @@
-h1 {
 
-    font-size: 2em;
-    color: red;
+
+.button-group {
+    margin-top: 2px;
+    padding-bottom: 10px;
+    background-color: rgb(206, 132, 67);
+}
+
+.button-group h3 {
+    padding-top: 10px;
+}
+
+.button {
+    border-radius: 6px;
+    border-color: 1px gray;
+    color: brown;
+    margin: 5px;
 }

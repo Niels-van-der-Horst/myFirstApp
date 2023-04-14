@@ -1,12 +1,29 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: rem;
   text-align: center;
 }
 
 h1 {
-  color: purple;
+  padding-top: 10px;
+  color: rgb(180, 64, 53);
 }
 
-            
+p {
+  color: black;
+  
+ }
+
+.header {
+  height: 270px;
+  width: 500px;
+  background-color: rgba(183, 156, 24, 0.738);
+  padding: 0px;
+  
+}
+
+h2 {
+  font-size: 2em;
+  
+}
