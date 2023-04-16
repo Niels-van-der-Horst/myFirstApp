@@ -1,11 +1,12 @@
 import './Button.css';
 
-export const Button = () => {
-    const uiText= "hallo ui component";
+export const Button = ({text}) => {
+    
 
     return (
-        <p>{uiText}</p>
+        <>        
+        <button className='button'>{text}</button>
+        </>
 
     );
-
 };
