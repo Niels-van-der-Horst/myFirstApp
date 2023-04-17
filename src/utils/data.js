@@ -8,5 +8,5 @@ export const tea = {
   export const coffee = {
     name: 'Coffee',
     imgUrl: 'https://media.wincacademy.nl/coffee.jpeg',
-    alt: `Picture of a cup coffee`,
+    alt: `Picture of a cup of coffee`,
   };
