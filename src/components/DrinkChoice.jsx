@@ -1,8 +1,9 @@
+import { useState } from 'react';
 import './DrinkChoice.css';
 
 
 export const DrinkChoice = ({drink}) => {
-    
+    useState
 
     return (
         <>

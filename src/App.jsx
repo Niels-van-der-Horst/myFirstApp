@@ -1,18 +1,16 @@
 
 import './App.css';
-import { tea, coffee } from './utils/data';
+import React, { useState } from 'react';
+import { tea, coffee, goatmilk } from './utils/data';
 import { ChoiceButtons } from './components/ChoiceButtons';
 import { DrinkChoice } from './components/DrinkChoice';
+import { DrinkSearch } from './components/DrinkSearch.jsx';
 
 
 export const App = () => {
 
 const greeting = "welkom back!";
-const userDrink = coffee;
-
-// const userChoice = (drink) => {
-
-// }
+const [userDrink, setUserDrink] = useState();
 
   return (
     
@@ -23,8 +21,11 @@ const userDrink = coffee;
             ) : (        
           <>
           <h1>{greeting}</h1>
+          
           <h2>Code & Coffee</h2>
-          <ChoiceButtons drinkOne={tea.name} drinkTwo={coffee.name} />
+          <DrinkSearch />
+          <ChoiceButtons drinkOne={tea.name} drinkTwo={coffee.name} drinkThree={goatmilk.name} />
+          
           </>
             )}
       </div>

@@ -2,7 +2,7 @@ import './ChoiceButtons.css';
 import { Button } from './ui/Button';
 
 
-export const ChoiceButtons = ({ drinkOne, drinkTwo }) => {
+export const ChoiceButtons = ({ drinkOne, drinkTwo, drinkThree }) => {
     
     
 
@@ -12,6 +12,7 @@ export const ChoiceButtons = ({ drinkOne, drinkTwo }) => {
                 <h3>Tijd voor een bakkie MaxHuichelaar</h3>
                 <Button text={drinkOne} />
                 <Button text={drinkTwo} />
+                <Button text={drinkThree} />
             </div>  
         </>
         

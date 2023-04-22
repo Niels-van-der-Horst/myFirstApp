@@ -10,3 +10,9 @@ export const tea = {
     imgUrl: 'https://media.wincacademy.nl/coffee.jpeg',
     alt: `Picture of a cup of coffee`,
   };
+
+  export const goatmilk = {
+    name: 'Goatmilk',
+    imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Geitenmelk.jpg',
+    alt: 'Goatmilker',
+  };
