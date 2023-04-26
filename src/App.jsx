@@ -1,7 +1,7 @@
 
 import './App.css';
 import React, { useState } from 'react';
-import { tea, coffee, goatmilk } from './utils/data';
+import { tea, coffee, goatmilk, availableDrinks } from './utils/data';
 import { ChoiceButtons } from './components/ChoiceButtons';
 import { DrinkChoice } from './components/DrinkChoice';
 import { DrinkSearch } from './components/DrinkSearch.jsx';
