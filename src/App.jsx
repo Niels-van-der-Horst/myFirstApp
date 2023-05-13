@@ -1,16 +1,17 @@
 
 import './App.css';
 import React, { useState } from 'react';
-import { tea, coffee, goatmilk, availableDrinks } from './utils/data';
-import { ChoiceButtons } from './components/ChoiceButtons';
 import { DrinkChoice } from './components/DrinkChoice';
 import { DrinkSearch } from './components/DrinkSearch.jsx';
+import { DrinkItem } from './components/DrinkItem';
+import { availableDrinks } from './utils/data';
 
 
 export const App = () => {
 
-const greeting = "welkom back!";
+const greeting = "Welkom ";
 const [userDrink, setUserDrink] = useState();
+
 
   return (
     
@@ -18,20 +19,21 @@ const [userDrink, setUserDrink] = useState();
         
         {userDrink ? ( 
             <DrinkChoice drink={userDrink} />
-            ) : (        
+
+            ) : ( 
+
           <>
           <h1>{greeting}</h1>
-          
           <h2>Code & Coffee</h2>
           <DrinkSearch />
-          <ChoiceButtons drinkOne={tea.name} drinkTwo={coffee.name} drinkThree={goatmilk.name} />
-          
+          <DrinkItem />
           </>
             )}
+            
       </div>
     
    
-    
+     
     
   );
 };
