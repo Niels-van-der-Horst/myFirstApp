@@ -14,5 +14,8 @@ export const DrinkChoice = ({drink}) => {
         <h3>op basis van bonensiroop en gemaakt in fabriek waar mensen ook thee drinken</h3>
         </div>
         </>
+
     );
 };
+
+

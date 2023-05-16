@@ -2,7 +2,7 @@
 import './App.css';
 import React, { useState } from 'react';
 import { DrinkChoice } from './components/DrinkChoice';
-import { DrinkSearch } from './components/DrinkSearch.jsx';
+import { DrinkSearch } from './components/DrinkSearch';
 import { DrinkItem } from './components/DrinkItem';
 import { availableDrinks } from './utils/data';
 
