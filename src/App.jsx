@@ -25,15 +25,12 @@ const [userDrink, setUserDrink] = useState();
           <>
           <h1>{greeting}</h1>
           <h2>Code & Coffee</h2>
-          <DrinkSearch />
-          <DrinkItem />
+          <DrinkSearch clickFn={setUserDrink} />
+          <DrinkItem drink={availableDrinks} />
           </>
             )}
             
       </div>
-    
-   
-     
     
   );
 };

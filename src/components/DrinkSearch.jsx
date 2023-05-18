@@ -4,15 +4,17 @@ import { TextInput } from './ui/TextInput';
 import { availableDrinks } from '../utils/data';
 import { DrinkList } from './DrinkList';
 
-export const DrinkSearch = () => {
+export const DrinkSearch = ({ clickFn} ) => {
 const [searchField, SetSearchField] = useState('choose drink');
      
+const handleChange = event => SetSearchField(event.target.value);
+
     return (
         
         <>
-        <TextInput />
+        <TextInput changeFn={changeFn}/>
         <p>{searchField}</p>
-        <DrinkList drinks={availableDrinks} />
+        <DrinkList clickFn={clickFn} drinks={availableDrinks} />
         </>
     );
 

@@ -2,6 +2,7 @@
     height: 300px;
     width: 100%;
     background-color: rgb(141, 93, 16);
+    padding-bottom: 20px;
 }
 
 .showDrink p {
@@ -23,3 +24,4 @@
 .showDrink h3 {
     font-size: 0.7em;
 }
+

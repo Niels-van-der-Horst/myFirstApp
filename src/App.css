@@ -16,7 +16,7 @@ p {
  }
 
 .header {
-  height: 270px;
+  height: auto;
   width: 500px;
   background-color: rgba(183, 156, 24, 0.738);
   padding: 0px;
