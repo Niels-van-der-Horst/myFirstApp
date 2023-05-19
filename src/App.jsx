@@ -18,7 +18,7 @@ const [userDrink, setUserDrink] = useState();
       <div className="header">
         
         {userDrink ? ( 
-            <DrinkChoice drink={userDrink} />
+          <DrinkChoice drink={userDrink} clickFn={setUserDrink}/>
 
             ) : ( 
 
