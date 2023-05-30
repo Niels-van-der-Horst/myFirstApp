@@ -2,12 +2,12 @@ import './DrinkList.css';
 import { DrinkItem } from './DrinkItem';
 
 
-export const DrinkList = ({drinks, clickFn}) => {
+export const DrinkList = ({matchedDrinks, clickFn}) => {
     
     return (
 
         <>
-        {drinks.map((drink) => (
+        {matchedDrinks.map((drink) => (
         <DrinkItem key={drink.id} drink={drink} clickFn={clickFn} />
        ))}
         </>

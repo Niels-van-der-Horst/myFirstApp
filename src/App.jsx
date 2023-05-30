@@ -5,7 +5,7 @@ import { DrinkChoice } from './components/DrinkChoice';
 import { DrinkSearch } from './components/DrinkSearch';
 import { DrinkItem } from './components/DrinkItem';
 import { availableDrinks } from './utils/data';
-
+import { Heading } from '@chakra-ui/react';
 
 export const App = () => {
 
@@ -23,7 +23,7 @@ const [userDrink, setUserDrink] = useState();
             ) : ( 
 
           <>
-          <h1>{greeting}</h1>
+          <Heading size="2xl" mb="8" color="blue.200" >{greeting}</Heading>
           <h2>Code & Coffee</h2>
           <DrinkSearch clickFn={setUserDrink} />
           <DrinkItem drink={availableDrinks} />
